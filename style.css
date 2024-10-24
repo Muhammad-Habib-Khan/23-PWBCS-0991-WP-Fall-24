@@ -106,7 +106,7 @@ main{
 /* footer styling */
 
 footer{
-    background: linear-gradient #8a8e8bb4;
+    background-color:  #8a8e8bb4;
     color: rgb(25, 24, 24);
     text-align: center;
     padding: 20px 40px;
@@ -148,10 +148,11 @@ input[type="email"]{
     font-size: 1rem;
 }
 
-input[type="email"] :: {
+input[type="email"] ::placeholder{ 
     color: #666;
-
 }
+
+
 
 input[type="email"]:focus{
     outline: none;
