@@ -1,3 +1,353 @@
-p{
-    color = red
+/* styling for homepage */
+/* header styling */
+body{
+    background-color: rgb(219, 219, 206);
+}
+.navbar{
+    background-color:#8a8e8bb4 ;
+   
+    border-radius: 10px;
+    padding: 0px 0px;
+    box-shadow: 0 4px rgb(73, 73, 74);
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 10px 10px;
+    padding: 3px 14px;
+}
+
+.navbar li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover{
+    background-color: #8a8e8bb4 ;
+}
+
+.navsearch{
+    float: right;
+    color: white;
+    padding: 10px 70px;
+}
+.navbar input{
+    border: 2px solid rgb(126, 125, 125);
+    border-radius: 2px;
+    padding: 3px 14px;
+    width: 120px;
+}
+
+/* styling for main section  */
+
+.heading1{
+    color: rgb(67, 67, 71)
+    ;
+}
+
+main{
+    padding: 20px;
+}
+.heading1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.firststart{
+    width: 1220px;
+    height: 500px;
+
+}
+
+.para1{
+    background-color: rgb(225, 218, 209);
+    color: rgb(107, 105, 105);
+    font-size: x-large;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.secondstart{
+    width: 1220px;
+    height: 500px;
+}
+
+.heading2{
+    color:  rgb(67, 67, 71);
+    font-style: italic;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.para2{
+    background-color: rgb(225, 218, 209);
+    color: rgb(107, 105, 105);
+    font-size: x-large;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.thirdpic{
+    width: 1220px;
+    height: 500px;
+}
+
+/* footer styling */
+
+footer{
+    background: linear-gradient #8a8e8bb4;
+    color: rgb(25, 24, 24);
+    text-align: center;
+    padding: 20px 40px;
+    font-family: Arial,  sans-serif;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.newslatter-signup{
+    background: rgba(225, 225, 225, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.label-style{
+    font-size: 1.2rem;
+    color: rgb(25, 24, 24);;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input[type="email"]{
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.7);;
+    color: #333;
+    font-size: 1rem;
+}
+
+input[type="email"] :: {
+    color: #666;
+
+}
+
+input[type="email"]:focus{
+    outline: none;
+    border-color:  #8a8e8bb4;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover{
+    background-color: #8a8e8bb4;
+    color: #fff;
+}
+
+.signup-info{
+    font-size:0.9rem;
+    color: rgb(25, 24, 24);
+    margin-top: 10px;
+
+}
+
+.links{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.links a{
+    color: #000000;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color:#8a8e8bb4;
+    text-decoration: underline;
+}
+
+footer p{
+    margin: 10px 0px;
+}
+
+/* styling for workout page */
+
+.workout{
+    color: rgb(67, 67, 71)
+    ;
+}
+
+main{
+    padding: 20px;
+}
+.workout{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.para3{
+    background-color: rgb(225, 218, 209);
+    color: rgb(107, 105, 105);
+    font-size: x-large;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.heading3{
+    color:  rgb(67, 67, 71);
+    font-style: italic;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.img1{
+    width: 1220px;
+    height: 500px;
+
+}
+
+.para4{
+    background-color: rgb(225, 218, 209);
+    color: rgb(107, 105, 105);
+    font-size: x-large;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.list1{
+    color:  rgb(67, 67, 71);
+    font-style: italic;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ul1{
+    color: rgb(107, 105, 105); 
+    font-size: x-large;
+}
+
+/* styling for nutrition guide page */
+
+.nutritionn{
+    color: rgb(67, 67, 71)
+    ;
+}
+
+.nutritionn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.list2{
+    color: rgb(107, 105, 105);
+    font-size: large;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.list3{
+    color:  rgb(67, 67, 71);
+    font-style: italic;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.img2{
+    width: 1150px;
+    height: 500px;
+}
+
+/* styling for contact page */
+
+.form{
+    background: rgba(225, 225, 225, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    
+    margin: 0px auto;
+}
+
+.label-style2{
+    border-color:  #8a8e8bb4;
+    font-size: 1.2rem;
+    color: rgb(25, 24, 24);;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-container2{
+    display: flex;
+    outline: none;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input[type="email"]{
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.7);;
+    color: #333;
+    font-size: 1rem;
+}
+
+input[type="email"] :: {
+    color: #666;
+
+}
+
+input[type="email"]:focus{
+    outline: none;
+    border-color:  #8a8e8bb4;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover{
+    background-color: #8a8e8bb4;
+    color: #fff;
+}
+
+.heading5{
+    color:  rgb(67, 67, 71);
+    font-style: normal;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
