@@ -5,81 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav class="navbar">
-            <ul>
+<body class="b2">
+    <header class="header">
+        <nav class="left">
+            <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="workouts.html">Workout Routine</a></li>
                 <li><a href="nutrition.html">Nutrition Guides</a></li>
-                <li><a href="photos.html">Gallery</a></li>
+                <li><a href="photos.html" class="active">Gallery</a></li>
                 <li><a href="contact.html">Contact us</a></li>
-                <div class="navsearch">
-                    <input type="text" name="search" id="search" placeholder="search">
-                </div>
             </ul>
         </nav>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us </button>
+        </div>
     </header>
-
-    <main>
-        <section>
-            <h1 class="workout">Contact Us</h1>
-            <form action="#" method="post" class="form">
-                <div class="input-container2">
-                    <label class="label-style2" for="name">Name:</label><br>
+    <div class="container12">
+        <h1>Contact Us</h1>
+                <form action="#" method="post" class="form">
+                <div>
+                    <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
-                <br>
-                <br>
-                <div class="input-container2">
-                    <label   for="subject">Subject:</label><br>
+                </div>               
+                <div>
+                    <label for="subject">Subject:</label><br>
                     <input type="text" id="subject" name="subject" placeholder="Enter your subject" required>
                 </div>
-                <br>
-                <br>
-                <div class="input-container2">
-                    <label class="label-style2" for="whatsapp">Whatsapp No:</label><br>
+                <div>
+                    <label for="whatsapp">Whatsapp No:</label><br>
                     <input type="tel" id="whatsapp" name="whatsapp"  required>
                 </div>
-                <br>
-                <br>
-                <div class="input-container2">
-                    <label class="label-style2" for="email">Email:</label><br>
+                <div>
+                    <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email"  placeholder="Enter your email" required>
                 </div>
-                <br>
-                <br>
-                <div class="input-container2">
-                    <label class="label-style2" for="message">Write your own comments/feedback:</label><br>
-                    <textarea name="message" id="message" rows="15" cols="150" placeholder="Type youe message here ...." required ></textarea>
+                <div>
+                    <label  for="message">Write your own comments/feedback:</label><br>
+                    <textarea name="message" id="message" rows="10" cols="50" placeholder="Type youe message here ...." required ></textarea>
                 </div>
-                <br>
-                <br>
-                <button class="subscribe-btn" type="submitt"> Submitt</button>
-
+                <button class="btn1" type="submitt"> Submit</button>
             </form>
-        </section>
-
-        <section>
-            <h3 class="heading3">Contact information:</h3>
-            <p><h5 class="heading5">Whatsapp:</h5> +92 3169599436</p>
-            <p><h5 class="heading5">Email:</h5>mhabibkhan@gmail.com</p>
-            <p class="para3">Follow us on social media platform</p>
-
-            <h1 class="workout">THANKS FOR VISITING!</h1>
-        </section>
-    </main>
-
+            <h3>Contact information:</h3>
+            <p><h5>Whatsapp:</h5> +92 3169599436</p>
+            <p><h5>Email:</h5>mhabibkhan@gmail.com</p>
+            <p>Follow us on social media platform</p>
+            <h1>THANKS FOR VISITING!</h1>
+    </div>
+    <div class="footer">
     <footer>
-
         <p>&copy; 2024 Fitness and Wellness. All rights reserved</p>
         <p class="links">Follow us on:
             <a href="#">Facebook</a>
             <a href="#">Instagram</a>
             <a href="#">Twitter</a>
-        </p>
-        
+        </p> 
     </footer>
+</div>
 </body>
 </html>
