@@ -5,6 +5,12 @@
     margin: 0px;
     padding: 0px;
 }
+.header{
+    position: fixed;
+    top: 4px;
+    left: 2px;
+    right: 2px;
+}
 .left{
     display: inline-block;
     position: absolute;
