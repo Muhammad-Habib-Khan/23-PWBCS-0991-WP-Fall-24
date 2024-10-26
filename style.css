@@ -58,6 +58,15 @@
 .btn:hover{
     background-color: grey;
 }
+.logo{
+    display: block;
+    width: 20%;
+    padding: 20px 0px;
+    margin: 90px 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(223, 204, 204);
+}
 .container1{
     margin: 200px 530px;
     padding: 10px 40px;
